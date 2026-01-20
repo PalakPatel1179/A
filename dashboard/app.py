@@ -11,7 +11,7 @@ st.title("Aadhaar Lifecycle Stress Dashboard")
 st.subheader("Madhya Pradesh | Age Group Analysis")
 
 # Load data
-df = pd.read_csv("mp_filtered_data.csv")
+df = pd.read_csv("dashboard/mp_filtered_data.csv")
 st.success("Data loaded successfully")
 
 #preview
