@@ -76,7 +76,7 @@ st.info(
 )
 
 # Load filtered data
-df = pd.read_csv("mp_filtered_data.csv")
+df = pd.read_csv('dashboard/mp_filtered_data.csv')
 st.success("Data loaded successfully")
 
 # Show data
